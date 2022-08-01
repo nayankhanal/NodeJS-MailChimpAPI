@@ -57,7 +57,7 @@ app.post("/failure",function(req,res){
   res.redirect("/");
 });
 
-app.listen(process.evn.PORT || 3000, function() {
+app.listen(process.env.PORT || 3000, function() {
   console.log("Server succesfully started.");
 });
 
